@@ -176,7 +176,7 @@ echo -e "  ${DIM}These load ONLY when Claude touches matching files.${NC}"
 echo ""
 
 install_file ".claude/rules/testing.md"       "$BOOTSTRAP_CLAUDE/rules/testing.md"       "testing rules (*.test.*, *.spec.*)"
-install_file ".claude/rules/ui-components.md" "$BOOTSTRAP_CLAUDE/rules/ui-components.md" "UI rules (*.tsx, *.jsx, components/)"
+install_file ".claude/rules/ui.md" "$BOOTSTRAP_CLAUDE/rules/ui.md"                       "UI rules (*.tsx, *.jsx, components/)"
 install_file ".claude/rules/safety.md"        "$BOOTSTRAP_CLAUDE/rules/safety.md"        "safety rules (*.sh, *.env, hooks/)"
 
 # ============================================================================
