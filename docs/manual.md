@@ -57,6 +57,7 @@ Prints 25-line summary to stdout in under 10 seconds. No files generated.
 /retro
 ```
 Analyzes what went well and wrong. Proposes rule improvements to EVOLUTION.md.
+See EVOLUTION-Rule-Promotion.md for instructions on handling rule improvement pipeline.
 
 ### End of Day
 ```
