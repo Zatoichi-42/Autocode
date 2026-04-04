@@ -1,0 +1,12 @@
+.env
+.env.*
+*.key
+*.pem
+.claude/logs/
+.claude/worktrees/
+.claude/HANDOFF.md
+.claude/JOURNAL.md
+.claude/conductor.pid
+CLAUDE.local.md
+.claude/settings.local.json
+node_modules/
