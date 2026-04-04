@@ -1,0 +1,12 @@
+{
+  "status": "idle",
+  "total_sessions": 0,
+  "total_cost_usd": 0,
+  "consecutive_failures": 0,
+  "last_session_id": null,
+  "last_exit_reason": null,
+  "current_task": null,
+  "history": [],
+  "started_at": null,
+  "stopped_at": null
+}

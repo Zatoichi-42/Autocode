@@ -1,0 +1,24 @@
+{
+  "_comment": "Model and effort configuration for different task types",
+  "_usage": "Subagents read their model from their own frontmatter. This file configures the INTENT for each tier.",
+  "tiers": {
+    "high": {
+      "_description": "Planning, architecture, design, critique. THINKING quality > speed.",
+      "model": "opus",
+      "effort": "high",
+      "used_by": ["self-plan skill", "self-critic agent", "meta-ratchet skill", "/plan command"]
+    },
+    "standard": {
+      "_description": "Implementation, testing, refactoring. EXECUTION speed > deep reasoning.",
+      "model": "sonnet",
+      "effort": "standard",
+      "used_by": ["tdd-test-writer", "tdd-implementer", "ratchet-loop", "/implement command"]
+    },
+    "low": {
+      "_description": "Scanning, formatting, simple lookups. SPEED matters most.",
+      "model": "sonnet",
+      "effort": "low",
+      "used_by": ["scout skill", "/check command", "/health command"]
+    }
+  }
+}

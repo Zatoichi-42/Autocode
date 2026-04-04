@@ -1,0 +1,31 @@
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Claude Code ephemeral state
+.claude/logs/
+.claude/worktrees/
+.claude/HANDOFF.md
+.claude/JOURNAL.md
+.claude/conductor.pid
+CLAUDE.local.md
+.claude/settings.local.json
+
+# Node
+node_modules/
+dist/
+build/
+.next/
+coverage/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
